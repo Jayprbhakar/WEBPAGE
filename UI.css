@@ -1,0 +1,79 @@
+body {
+    /* background-color: rgb(10, 44, 31); */
+    background: url(TrueS.png);
+    background-repeat: no-repeat;
+    color: rgb(255, 4, 4);
+    font-weight: lighter;
+    font-family: Georgia;
+    font-variant: small-caps;
+    font-style: inherit;
+    font-size: 5em;
+}
+
+p {
+    text-align: left;
+    text-shadow: 20px 9px 11px rgb(205, 78, 78);
+    text-decoration: dotted;
+}
+
+/* this is vertical align property */
+/* style by class  */
+
+td.top {
+    vertical-align: top;
+    text-decoration: dashed;
+}
+
+td.middle {
+    vertical-align: middle;
+}
+
+td.bottom {
+    vertical-align: bottom;
+}
+
+/* style border very good for interaction */
+
+div.border {
+    border-radius: 500px;
+    width: 300px;
+    height: 100px;
+    color: rgb(254, 254, 255);
+    background-color: rgb(145, 159, 175);
+    text-align: center;
+}
+
+table {
+    /* horizontal 60px and vertical 20px offset  and 11px is blur and spread*/
+    box-shadow: 60px -11px 20px rgb(154, 46, 46);
+
+}
+
+/* transperency effect css3 */
+nav {
+    padding: 50px 0;
+    min-width: 500px;
+}
+
+nav ul {
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 25%,
+            rgba(255, 255, 255, 0.2) 75%,
+            rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+        outset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #0068a4;
+    font-size: 40px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
